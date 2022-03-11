@@ -1,0 +1,104 @@
+server:
+  #端口port
+  port: 2090
+spring:
+  application:
+    name: edu-vr-service
+    # 资源信息
+    messages:
+      # 国际化资源文件路径
+      basename: i18n/messages
+    jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+8
+  #  datasource:
+  #    dynamic:
+  #      primary: master #默认首选数据源
+  #      datasource:
+  #        master:
+  #          url: jdbc:mysql://192.168.92.2:3398/eep?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+  #          username: testa
+  #          password: 123456
+  #          driverClassName: com.mysql.cj.jdbc.Driver
+  #        slaveWgt:
+  #          url: jdbc:mysql://192.168.92.2:3398/eep?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true
+  #          username: testa
+  #          password: 123456
+  #          driverClassName: com.mysql.cj.jdbc.Driver
+  #    type: com.zaxxer.hikari.HikariDataSource
+  #    hikari:
+  #      minimum-idle: 3
+  #      maximum-pool-size: 20
+  #      idle-timeout: 500000
+  #      max-lifetime: 540000
+  #      connection-timeout: 60000
+  #      connection-test-query: SELECT 1
+  #      data-source-properties:
+  #        useSSL: false
+  #        serverTimezone: Asia/Shanghai
+  #        useUnicode: true
+  #        characterEncoding: utf-8
+  # 文件上传
+  servlet:
+    multipart:
+      # 单个文件大小
+      max-file-size: 50MB
+      # 设置总上传的文件大小
+      max-request-size: 200MB
+  # 热部署
+  devtools:
+    restart:
+      enabled: false
+# 日志配置
+logging:
+  config: classpath:logback-spring.xml
+## MyBatis
+#mybatis:
+#  # 搜索指定包别名
+#  typeAliasesPackage: com.dojoy.epp
+#  # 配置mapper的扫描，找到所有的mapper.xml映射文件
+#  mapperLocations: classpath*:mapper/**/*Mapper.xml
+#  # 加载全局的配置文件
+#  configLocation: classpath:mapper/mybatis-config.xml
+## PageHelper分页插件
+#pagehelper:
+#  helperDialect: mysql
+#  reasonable: true
+#  supportMethodsArguments: true
+#  params: count=countSql
+#file:
+#  uploadPath: /opt/modules/eep/attach
+
+# 缓存公共配置
+cache:
+  redisson:
+    # 线程池数量
+    threads: 16
+    # Netty线程池数量
+    nettyThreads: 32
+    # 传输模式
+    transportMode: "NIO"
+    # 单节点配置
+    singleServerConfig:
+      # 客户端名称
+      clientName: ${spring.application.name}
+      # 最小空闲连接数
+      connectionMinimumIdleSize: 5
+      # 连接池大小
+      connectionPoolSize: 20
+      # 连接空闲超时，单位：毫秒
+      idleConnectionTimeout: 10000
+      # 命令等待超时，单位：毫秒
+      timeout: 3000
+      # 如果尝试在此限制之内发送成功，则开始启用 timeout 计时。
+      retryAttempts: 3
+      # 命令重试发送时间间隔，单位：毫秒
+      retryInterval: 1500
+      # 发布和订阅连接的最小空闲连接数
+      subscriptionConnectionMinimumIdleSize: 1
+      # 发布和订阅连接池大小
+      subscriptionConnectionPoolSize: 20
+      # 单个连接最大订阅数量
+      subscriptionsPerConnection: 5
+      # DNS监测时间间隔，单位：毫秒
+      dnsMonitoringInterval: 5000

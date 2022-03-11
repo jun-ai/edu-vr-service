@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/edu-vr-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-vr-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-vr-extensions/edu-vr-extensions-cache-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-vr-extensions/edu-vr-extensions-lock-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-vr-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/edu-vr-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>
