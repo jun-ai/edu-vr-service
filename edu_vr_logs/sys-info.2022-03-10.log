@@ -1,0 +1,240 @@
+16:51:32.765 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+16:51:32.767 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication on DESKTOP-5239L4L with PID 27476 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+16:51:32.767 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,652] - The following profiles are active: dev
+16:51:32.793 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:51:32.793 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:51:33.440 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=e11569e3-d3e0-3b5c-a825-a8474b03caf0
+16:51:33.753 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+16:51:33.758 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+16:51:33.758 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:51:33.759 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+16:51:33.820 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:51:33.820 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 1026 ms
+16:51:34.100 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,181] - Initializing ExecutorService 'applicationTaskExecutor'
+16:51:34.119 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+16:51:34.231 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - [initialize,181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+16:51:34.315 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,218] - Shutting down ExecutorService 'applicationTaskExecutor'
+16:51:34.318 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+16:51:34.326 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:54:02.941 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+16:54:02.943 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication on DESKTOP-5239L4L with PID 12212 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+16:54:02.943 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,652] - The following profiles are active: dev
+16:54:02.969 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:54:02.969 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:54:03.620 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=e11569e3-d3e0-3b5c-a825-a8474b03caf0
+16:54:03.934 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+16:54:03.940 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+16:54:03.941 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:54:03.941 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+16:54:04.012 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:54:04.013 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 1043 ms
+16:54:04.294 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,181] - Initializing ExecutorService 'applicationTaskExecutor'
+16:54:04.315 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+16:54:04.428 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - [initialize,181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+16:54:04.510 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,218] - Shutting down ExecutorService 'applicationTaskExecutor'
+16:54:04.513 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+16:54:04.521 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:55:24.515 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+16:55:24.517 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication on DESKTOP-5239L4L with PID 21848 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+16:55:24.518 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,652] - The following profiles are active: dev
+16:55:24.543 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:55:24.544 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:55:25.171 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=e11569e3-d3e0-3b5c-a825-a8474b03caf0
+16:55:25.471 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+16:55:25.477 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+16:55:25.477 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:55:25.477 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+16:55:25.550 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:55:25.550 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 1006 ms
+16:55:25.828 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,181] - Initializing ExecutorService 'applicationTaskExecutor'
+16:55:25.848 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+16:55:25.959 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - [initialize,181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+16:55:26.040 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,218] - Shutting down ExecutorService 'applicationTaskExecutor'
+16:55:26.042 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+16:55:26.051 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:55:56.778 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication on DESKTOP-5239L4L with PID 11444 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+16:55:56.777 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+16:55:56.780 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,652] - The following profiles are active: dev
+16:55:56.809 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,225] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:55:56.809 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,225] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:55:57.438 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=e11569e3-d3e0-3b5c-a825-a8474b03caf0
+16:55:57.733 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+16:55:57.738 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+16:55:57.738 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:55:57.739 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+16:55:57.811 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:55:57.811 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,285] - Root WebApplicationContext: initialization completed in 1001 ms
+16:55:58.084 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [initialize,181] - Initializing ExecutorService 'applicationTaskExecutor'
+16:55:58.103 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+16:55:58.216 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - [initialize,181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+16:55:58.300 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - [shutdown,218] - Shutting down ExecutorService 'applicationTaskExecutor'
+16:55:58.303 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+16:55:58.310 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:58:30.754 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+16:58:30.760 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication using Java 1.8.0_271 on DESKTOP-5239L4L with PID 2176 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+16:58:30.760 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,668] - The following profiles are active: dev
+16:58:30.785 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:58:30.785 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:58:31.405 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=7614081c-cc04-3242-8c3e-607ccb13b207
+16:58:31.742 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+16:58:31.748 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+16:58:31.748 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:58:31.748 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+16:58:31.822 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:58:31.822 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,289] - Root WebApplicationContext: initialization completed in 1036 ms
+16:58:32.135 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+16:58:38.561 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9090"]
+16:58:38.571 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] - Tomcat started on port(s): 9090 (http) with context path ''
+16:58:53.776 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-9090"]
+16:58:53.776 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+16:58:53.779 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-9090"]
+16:58:53.781 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-9090"]
+16:58:53.787 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+16:59:44.823 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+16:59:44.827 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication using Java 1.8.0_271 on DESKTOP-5239L4L with PID 12148 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+16:59:44.827 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,668] - The following profiles are active: dev
+16:59:44.852 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:59:44.852 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:59:45.468 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=7614081c-cc04-3242-8c3e-607ccb13b207
+16:59:45.775 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+16:59:45.780 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+16:59:45.781 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+16:59:45.781 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+16:59:45.839 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+16:59:45.839 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,289] - Root WebApplicationContext: initialization completed in 986 ms
+16:59:46.129 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+16:59:52.510 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9090"]
+16:59:52.544 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] - Tomcat started on port(s): 9090 (http) with context path ''
+17:00:07.813 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Pausing ProtocolHandler ["http-nio-9090"]
+17:00:07.813 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Stopping service [Tomcat]
+17:00:07.816 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Stopping ProtocolHandler ["http-nio-9090"]
+17:00:07.818 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Destroying ProtocolHandler ["http-nio-9090"]
+17:00:07.823 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - [logMessage,136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+17:01:39.487 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+17:01:39.491 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication using Java 1.8.0_271 on DESKTOP-5239L4L with PID 28480 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+17:01:39.492 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,668] - The following profiles are active: dev
+17:01:39.517 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:01:39.517 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:01:40.134 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=7614081c-cc04-3242-8c3e-607ccb13b207
+17:01:40.437 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+17:01:40.443 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+17:01:40.443 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:01:40.443 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:01:40.501 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:01:40.501 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,289] - Root WebApplicationContext: initialization completed in 983 ms
+17:01:40.815 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+17:01:41.195 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9090"]
+17:01:41.205 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] - Tomcat started on port(s): 9090 (http) with context path ''
+17:01:41.249 [restartedMain] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP edu-vr 10.0.97.173:9090 register finished
+17:01:41.452 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarted,61] - Started VrServiceApplication in 2.301 seconds (JVM running for 2.774)
+17:03:44.190 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+17:03:44.193 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+17:03:45.591 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+17:03:45.596 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication using Java 1.8.0_271 on DESKTOP-5239L4L with PID 20988 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+17:03:45.596 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,668] - The following profiles are active: dev
+17:03:45.621 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:03:45.621 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:03:46.247 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=7614081c-cc04-3242-8c3e-607ccb13b207
+17:03:46.553 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+17:03:46.558 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+17:03:46.559 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:03:46.559 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:03:46.616 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:03:46.617 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,289] - Root WebApplicationContext: initialization completed in 996 ms
+17:03:46.903 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+17:03:47.225 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9090"]
+17:03:47.234 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] - Tomcat started on port(s): 9090 (http) with context path ''
+17:03:47.241 [restartedMain] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP edu-vr 10.0.97.173:9090 register finished
+17:03:47.421 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarted,61] - Started VrServiceApplication in 2.162 seconds (JVM running for 2.633)
+17:17:16.147 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+17:17:16.150 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+17:19:52.926 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+17:19:52.933 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication using Java 1.8.0_271 on DESKTOP-5239L4L with PID 28212 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+17:19:52.933 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,668] - The following profiles are active: dev
+17:19:52.961 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:19:52.961 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:19:53.690 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=3439e58a-f088-3330-ae2c-460b6f6cdf73
+17:19:54.005 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+17:19:54.011 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+17:19:54.011 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:19:54.011 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:19:54.070 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:19:54.071 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,289] - Root WebApplicationContext: initialization completed in 1109 ms
+17:19:54.363 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+17:19:54.692 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9090"]
+17:19:54.702 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] - Tomcat started on port(s): 9090 (http) with context path ''
+17:19:54.710 [restartedMain] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP edu-vr 10.0.97.173:9090 register finished
+17:19:54.899 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarted,61] - Started VrServiceApplication in 2.448 seconds (JVM running for 3.061)
+17:20:54.432 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+17:20:54.434 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+17:21:03.574 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+17:21:03.579 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication using Java 1.8.0_271 on DESKTOP-5239L4L with PID 29348 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+17:21:03.579 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,668] - The following profiles are active: dev
+17:21:03.604 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:21:03.604 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:21:04.243 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=3439e58a-f088-3330-ae2c-460b6f6cdf73
+17:21:04.555 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+17:21:04.560 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+17:21:04.561 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:21:04.561 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:21:04.620 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:21:04.620 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,289] - Root WebApplicationContext: initialization completed in 1015 ms
+17:21:04.909 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+17:21:05.226 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9090"]
+17:21:05.235 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] - Tomcat started on port(s): 9090 (http) with context path ''
+17:21:05.242 [restartedMain] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP edu-vr 10.0.97.173:9090 register finished
+17:21:05.419 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarted,61] - Started VrServiceApplication in 2.184 seconds (JVM running for 2.669)
+17:23:13.895 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+17:23:13.897 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+17:25:50.274 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+17:25:50.278 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication using Java 1.8.0_271 on DESKTOP-5239L4L with PID 28760 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+17:25:50.278 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,668] - The following profiles are active: dev
+17:25:50.304 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:25:50.304 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:25:50.968 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=3439e58a-f088-3330-ae2c-460b6f6cdf73
+17:25:51.338 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+17:25:51.344 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+17:25:51.344 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:25:51.345 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:25:51.404 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:25:51.404 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,289] - Root WebApplicationContext: initialization completed in 1100 ms
+17:25:51.694 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+17:25:52.013 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9090"]
+17:25:52.023 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] - Tomcat started on port(s): 9090 (http) with context path ''
+17:25:52.030 [restartedMain] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, DEFAULT_GROUP edu-vr 10.0.97.173:9090 register finished
+17:25:52.210 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarted,61] - Started VrServiceApplication in 2.28 seconds (JVM running for 2.747)
+17:25:52.213 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [main,17] - ---------------------------职教云VR模块启动成功---------------------------
+17:26:54.681 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+17:26:54.683 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.
+17:26:56.297 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.1.7.Final
+17:26:56.301 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarting,55] - Starting VrServiceApplication using Java 1.8.0_271 on DESKTOP-5239L4L with PID 28900 (D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr\edu-vr-service\target\classes started by ZJ in D:\Java_Tools\IntelliJ IDEA_WorkPlace\edu-vr)
+17:26:56.302 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStartupProfileInfo,668] - The following profiles are active: test
+17:26:56.328 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+17:26:56.328 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - [logTo,255] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+17:26:56.991 [restartedMain] INFO  o.s.c.c.s.GenericScope - [setSerializationId,283] - BeanFactory id=3439e58a-f088-3330-ae2c-460b6f6cdf73
+17:26:57.301 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [initialize,108] - Tomcat initialized with port(s): 9090 (http)
+17:26:57.306 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Initializing ProtocolHandler ["http-nio-9090"]
+17:26:57.307 [restartedMain] INFO  o.a.c.c.StandardService - [log,173] - Starting service [Tomcat]
+17:26:57.307 [restartedMain] INFO  o.a.c.c.StandardEngine - [log,173] - Starting Servlet engine: [Apache Tomcat/9.0.46]
+17:26:57.366 [restartedMain] INFO  o.a.c.c.C.[.[.[/] - [log,173] - Initializing Spring embedded WebApplicationContext
+17:26:57.366 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - [prepareWebApplicationContext,289] - Root WebApplicationContext: initialization completed in 1037 ms
+17:26:57.662 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - [startServer,58] - LiveReload server is running on port 35729
+17:26:58.001 [restartedMain] INFO  o.a.c.h.Http11NioProtocol - [log,173] - Starting ProtocolHandler ["http-nio-9090"]
+17:26:58.011 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer - [start,220] - Tomcat started on port(s): 9090 (http) with context path ''
+17:26:58.037 [restartedMain] INFO  c.a.c.n.r.NacosServiceRegistry - [register,75] - nacos registry, edu edu-vr-service 10.0.97.173:9090 register finished
+17:26:58.221 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [logStarted,61] - Started VrServiceApplication in 2.286 seconds (JVM running for 2.8)
+17:26:58.223 [restartedMain] INFO  c.z.e.s.v.VrServiceApplication - [main,17] - ---------------------------职教云VR模块启动成功---------------------------
+17:28:04.897 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,90] - De-registering from Nacos Server now...
+17:28:04.912 [SpringContextShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,110] - De-registration finished.

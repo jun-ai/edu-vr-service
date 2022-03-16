@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="edu-vr-admin" />
         <module name="edu-vr-service" />
+        <module name="edu-vr-common" />
         <module name="edu-vr-model" />
         <module name="edu-vr-api" />
         <module name="edu-vr-extensions-cache-starter" />

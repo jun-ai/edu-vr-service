@@ -15,6 +15,8 @@ public enum PlatFormEnum {
     CREATE_ROOM_FAIL(10006,"创建房间失败"),
     LEFT_ROOM_FAIL(10007,"离开房间失败"),
     PARAMETER_EMPTY(10008,"参数为空"),
+    AUTH_FAIL(10009,"教师赋权失败"),
+    INSERT_ROOM_FAIL(10010,"加入房间失败"),
     SUCCESS(200,"操作成功"),
     FAIL(500,"操作失败");
     @Getter
