@@ -1,13 +1,7 @@
 package com.zhejianglab.edu.impl;
 
-import com.zhejianglab.edu.dao.PersonnelAgeRateMapper;
-import com.zhejianglab.edu.dao.PersonnelGpNumMapper;
-import com.zhejianglab.edu.dao.PersonnelGpReqMapper;
-import com.zhejianglab.edu.dao.PersonnelYearTotalMapper;
-import com.zhejianglab.edu.model.entity.PersonnelAgeRate;
-import com.zhejianglab.edu.model.entity.PersonnelGpNum;
-import com.zhejianglab.edu.model.entity.PersonnelGpReq;
-import com.zhejianglab.edu.model.entity.PersonnelYearTotal;
+import com.zhejianglab.edu.dao.*;
+import com.zhejianglab.edu.model.entity.*;
 import com.zhejianglab.edu.service.BgPersonnelService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,6 +26,15 @@ public class BgPersonnelServiceImpl implements BgPersonnelService {
     @Autowired
     private PersonnelYearTotalMapper personnelYearTotalMapper;
 
+    @Autowired
+    private PersonnelReqSupplyRateMapper personnelReqSupplyRateMapper;
+
+    @Autowired
+    private PersonnelEmployNumAndTrendMapper personnelEmployNumAndTrendMapper;
+
+    @Autowired
+    private PersonnelInflowMapper personnelInflowMapper;
+
     @Override
     public List<PersonnelGpNum> perSonnelGpNumList() {
         return personnelGpNumMapper.selectList();
@@ -43,12 +46,27 @@ public class BgPersonnelServiceImpl implements BgPersonnelService {
     }
 
     @Override
-    public List<PersonnelAgeRate> gpAgeRateList() {
+    public List<PersonnelAgeRate> ageRateList() {
         return personnelAgeRateMapper.selectList();
     }
 
     @Override
-    public List<PersonnelYearTotal> gpYearTotalList() {
+    public List<PersonnelYearTotal> yearTotalList() {
         return personnelYearTotalMapper.selectList();
+    }
+
+    @Override
+    public List<PersonnelReqSupplyRate> reqSupplyRate() {
+        return personnelReqSupplyRateMapper.selectList();
+    }
+
+    @Override
+    public List<PersonnelEmployNumAndTrend> employNumAndTrend() {
+        return personnelEmployNumAndTrendMapper.selectList();
+    }
+
+    @Override
+    public List<PersonnelInflow> inflow() {
+        return personnelInflowMapper.selectList();
     }
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhejianglab.edu.dao.PersonnelAgeRateMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhejianglab.edu.model.entity.PersonnelAgeRate">
+        <result column="ID" jdbcType="INTEGER" property="id" />
+        <result column="X" jdbcType="VARCHAR" property="x" />
+        <result column="Y" jdbcType="VARCHAR" property="y" />
+        <result column="R" jdbcType="VARCHAR" property="r" />
+        <result column="S" jdbcType="VARCHAR" property="s" />
+    </resultMap>
+
+    <select id="selectList" resultType="com.zhejianglab.edu.model.entity.PersonnelAgeRate">
+        select * from personnel_age_rate
+    </select>
+</mapper>

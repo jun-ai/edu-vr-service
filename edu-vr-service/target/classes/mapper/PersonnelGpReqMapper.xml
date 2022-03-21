@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhejianglab.edu.dao.PersonnelGpReqMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhejianglab.edu.model.entity.PersonnelGpReq">
+
+        <result column="ID" jdbcType="INTEGER" property="id" />
+        <result column="COLORFIELD" jdbcType="INTEGER" property="colorField" />
+        <result column="X" jdbcType="VARCHAR" property="x" />
+        <result column="Y" jdbcType="VARCHAR" property="y" />
+    </resultMap>
+
+    <select id="selectList" resultType="com.zhejianglab.edu.model.entity.PersonnelGpReq">
+        select * from personnel_gap_req
+    </select>
+</mapper>

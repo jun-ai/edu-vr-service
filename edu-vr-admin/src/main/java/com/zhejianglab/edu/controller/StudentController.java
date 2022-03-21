@@ -59,6 +59,7 @@ public class StudentController {
             return  AjaxResult.error(PlatFormEnum.PARAMETER_EMPTY.code,PlatFormEnum.getValue(PlatFormEnum.PARAMETER_EMPTY.code), DataResult.success());
         }
         logger.info("学生是否有权限:{}"+studentReqVO);
+        logger.info("用户id为:{}"+SessionUtil.get().getZhid());
         studentReqVO.setStudentId(String.valueOf(SessionUtil.get().getZhid()));
         RoomUserDto auth = studentService.isAuth(studentReqVO);
         return AjaxResult.success(DataResult.success(auth));
