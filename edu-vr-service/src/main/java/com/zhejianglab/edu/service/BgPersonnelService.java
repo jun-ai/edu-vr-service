@@ -1,9 +1,7 @@
 package com.zhejianglab.edu.service;
 
-import com.zhejianglab.edu.model.entity.PersonnelAgeRate;
-import com.zhejianglab.edu.model.entity.PersonnelGpNum;
-import com.zhejianglab.edu.model.entity.PersonnelGpReq;
-import com.zhejianglab.edu.model.entity.PersonnelYearTotal;
+import com.zhejianglab.edu.model.entity.*;
+
 import java.util.List;
 
 public interface BgPersonnelService {
@@ -12,7 +10,13 @@ public interface BgPersonnelService {
 
     public List<PersonnelGpReq> perSonnelGpReqList();
 
-    public List<PersonnelAgeRate> gpAgeRateList();
+    public List<PersonnelAgeRate> ageRateList();
 
-    public List<PersonnelYearTotal> gpYearTotalList();
+    public List<PersonnelYearTotal> yearTotalList();
+
+    public List<PersonnelReqSupplyRate> reqSupplyRate();
+
+    public List<PersonnelEmployNumAndTrend> employNumAndTrend();
+
+    public List<PersonnelInflow> inflow();
 }

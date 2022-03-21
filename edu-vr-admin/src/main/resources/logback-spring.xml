@@ -62,9 +62,9 @@
         </encoder>
     </appender>
 
-	<logger name="com.zhejianglab.edu.service.vr" level="debug" />
+	<logger name="com.zhejianglab.edu" level="debug" />
 
-	<root level="info">
+	<root level="debug">
 		<appender-ref ref="console" />
 	</root>
 

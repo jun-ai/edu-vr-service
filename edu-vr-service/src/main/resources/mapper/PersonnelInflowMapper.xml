@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhejianglab.edu.dao.PersonnelInflowMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhejianglab.edu.model.entity.PersonnelInflow">
+
+        <result column="ID" jdbcType="INTEGER" property="id" />
+        <result column="AREA" jdbcType="VARCHAR" property="area" />
+        <result column="PV" jdbcType="VARCHAR" property="pv" />
+        <result column="MIN" jdbcType="VARCHAR" property="min" />
+        <result column="PJ" jdbcType="VARCHAR" property="pj" />
+        <result column="NOW" jdbcType="VARCHAR" property="now" />
+    </resultMap>
+
+    <select id="selectList" resultType="com.zhejianglab.edu.model.entity.PersonnelInflow">
+        select * from personnel_inflow
+    </select>
+</mapper>
